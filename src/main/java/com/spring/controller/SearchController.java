@@ -32,12 +32,13 @@ public class SearchController
 	}
 	 
 	
-	@RequestMapping("/user/{userId}") // URI path Variable  /user/{userId}
-	public String userDetails(@PathVariable("userId") int id)
-	{
-		System.out.println(id);
-		return "home";
-	}
+//	@RequestMapping("/user/{userId}") // URI path Variable  /user/{userId}
+//	public String userDetails(@PathVariable("userId") int id)
+//	{
+//		System.out.println(id);
+//		return "home";
+//	}
+
 	
 	//Handling Exception in Spring MVC and displaying proper Error Page
 	
